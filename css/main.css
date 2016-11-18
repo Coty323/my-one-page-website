@@ -259,13 +259,13 @@ textarea {
         display: table-header-group;
     }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
 
-    img {
-        max-width: 100% !important;
+    
+
+    img.picture-sizing {
+        width: 100px;
+        height: 100px;
+        display: inline-block;
     }
 
     p,
