@@ -8,7 +8,9 @@ img {
 body {
 	margin-left: 15%;
 	margin-right: 10px;
-	background-color: skyblue;
+	background-image: url(http://2.bp.blogspot.com/-CU8JijpZrpM/T7i6l926E-I/AAAAAAAAJOs/LQrPhbDjLX4/s1920/abstract-wallpaper-29.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 
 hr {
@@ -42,7 +44,7 @@ header{
 .menu li {display: block;   padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
 .menu li:hover{display: block;    background:#181818; padding:15px 0 15px 0; border-bottom:#1d1f20 1px solid;}
 .menu ul li a { text-decoration:none;  margin: 0px; color:#fff;}
-.menu ul li a:hover {  color: #fff; text-decoration:none;}
+.menu ul li a:hover {  color: skyblue; text-decoration:none;}
 .menu a{text-decoration:none; color:white;}
 .menu a:hover{text-decoration:none; color:white;}
 
@@ -80,4 +82,5 @@ header{
 
 #section-3 {
   background-image: url(http://www.planwallpaper.com/static/images/Cool_background-6_SBd4Ddp.jpg);
+  border-style: double;
 }
