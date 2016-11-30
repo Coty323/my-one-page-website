@@ -53,6 +53,17 @@ header{
   margin:0 auto;
 }
 
+#kitten-paragraph {
+  text-align: left;
+  color: white;
+}
+
+.kitten-images {
+  float: right;
+  width: 100px;
+  height: 100px;
+}
+
 #section-1 {
   background-image: url(http://www.themesrefinery.net/wp-content/uploads/2014/06/Elegant_Background-19.jpg);
   background-repeat: no-repeat;
@@ -65,4 +76,8 @@ header{
   background-repeat: no-repeat;
   background-size: 100% 100%;
   border-style: double;
+}
+
+#section-3 {
+  background-image: url(http://www.planwallpaper.com/static/images/Cool_background-6_SBd4Ddp.jpg);
 }
