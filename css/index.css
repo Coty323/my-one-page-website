@@ -52,3 +52,17 @@ header{
   margin-top:5px; 
   margin:0 auto;
 }
+
+#section-1 {
+  background-image: url(http://www.themesrefinery.net/wp-content/uploads/2014/06/Elegant_Background-19.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-style: double;
+}
+
+#section-2 {
+  background-image: url(http://www.lamisionlatina.org/sitebuilder/images/WebsiteBackgroundRedGrunge-714x468.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  border-style: double;
+}
