@@ -94,23 +94,136 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body {
+    background-image: url(http://2.bp.blogspot.com/-CU8JijpZrpM/T7i6l926E-I/AAAAAAAAJOs/LQrPhbDjLX4/s1920/abstract-wallpaper-29.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-color: skyblue;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: 1px;  
+}
+
+hr {
+    border: ridge;
+    border-color: black;
+}
+
+#navigation-bar a {
+    background-color: skyblue;
+}
+
+#navigation-bar a:hover {
+    background-color: black;
+}
+
+#fun-facts-heading {
+    text-align: center;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+header{
+    width:100%; 
+    background:#1d1f20; 
+    height:60px; 
+    line-height:60px;
+}
 
 
 
+.menu {
+    z-index:1000000; 
+    font-weight:bold; 
+    font-size:1.2em;    
+    position: fixed; 
+    text-align:center;
+    top: 10px;
+    left: 15px;
+    width: 15%;
 
+}
+.menu ul {
+    margin: 0; 
+    padding: 0; 
+    list-style-type: none; 
+    list-style-image: none;
+}
+.menu li {
+    display: block;   
+    padding:15px 0 15px 0; 
+    border-bottom:#1d1f20 4px solid; 
+    border-left: skyblue 10px solid; 
+    border-right: skyblue 10px solid;
+    background-color: black;
+}
+.menu li:hover {
+    display: block;    
+    background: skyblue; 
+    padding:15px 0 15px 0; 
+    border-bottom: #1d1f20 1px solid;
+}
+.menu ul li a {
+    text-decoration:none;  
+    margin: 0px; color: black;
+}
+.menu ul li a:hover {  
+    color: #fff; 
+    text-decoration:none;
+}
+.menu a { 
+    text-decoration:none; 
+    color:white;
+}
+.menu a:hover {
+    text-decoration:none; 
+    color: white;
+}
 
+.glyphicon-home{
+    color:white; 
+    font-size:1.5em; 
+    margin-top:5px; 
+    margin:0 auto;
+}
 
+#kitten-paragraph {
+    text-align: left;
+    color: white;
+}
 
+.kitten-images {
+    float: right;
+    width: 100px;
+    height: 100px;
+}
 
+.sections {
+  margin-left: 200px;
+}
 
+#section-1 {
+    background-image: url(http://www.themesrefinery.net/wp-content/uploads/2014/06/Elegant_Background-19.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: double;
+}
 
+#section-2 {
+    background-image: url(http://www.lamisionlatina.org/sitebuilder/images/WebsiteBackgroundRedGrunge-714x468.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-style: double;
+}
 
-
-
-
-
-
-
+#section-3 {
+    background-image: url(http://www.planwallpaper.com/static/images/Cool_background-6_SBd4Ddp.jpg);
+    border-style: double;
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
